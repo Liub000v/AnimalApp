@@ -1,8 +1,8 @@
 package com.company.string.Animal;
 
 public class DogInf implements Animal{
-    private String name;
-    public int age;
+    private final String name;
+    private final int age;
 
     public DogInf(String name, int age) {
         this.name = name;
@@ -17,8 +17,8 @@ public class DogInf implements Animal{
         return name;
     }
 
-    public String toString() {
-        String line = "собака по имени";
-        return line;
+    @Override
+    public String getStringRepr() {
+        return "собака по имени";
     }
 }

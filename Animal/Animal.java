@@ -5,5 +5,6 @@ public interface Animal {
 
     String getName();
 
-    String toString();
+    String getStringRepr();
+
 }
