@@ -11,6 +11,7 @@ public class AnimalApp {
         ArrayList<Animal> animal = new ArrayList<Animal>();
         read(animal);
         MaxMin(animal);
+        System.out.println("Bullshit");
     }
 
 
